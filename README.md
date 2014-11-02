@@ -1,7 +1,7 @@
 # alpha 
-[![Dependency Status](https://david-dm.org/creaturephil/alpha.svg?style=flat)](https://david-dm.org/creaturephil/alpha)
-[![devDependency Status](https://david-dm.org/creaturephil/alpha/dev-status.svg?style=flat)](https://david-dm.org/creaturephil/alpha#info=devDependencies)
-[![Build Status](https://travis-ci.org/CreaturePhil/alpha.svg?style=flat)](https://travis-ci.org/CreaturePhil/alpha)
+[![Build Status](https://travis-ci.org/CreaturePhil/alpha.svg)](https://travis-ci.org/CreaturePhil/alpha)
+[![Dependency Status](https://david-dm.org/creaturephil/alpha.svg)](https://david-dm.org/creaturephil/alpha)
+[![devDependency Status](https://david-dm.org/creaturephil/alpha/dev-status.svg)](https://david-dm.org/creaturephil/alpha#info=devDependencies)
 
 Simple Express' opinionated boilerplate for Node.js web applications.
 

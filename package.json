@@ -2,7 +2,8 @@
   "name": "alpha",
   "version": "0.0.0",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "mocha --reporter=spec --timeout=10000"
   },
   "dependencies": {
     "express": "^4.10.0",
