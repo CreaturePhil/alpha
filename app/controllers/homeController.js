@@ -3,7 +3,7 @@ var homeController = (function() {
 
   controller.index = {
 
-    get: function(req, res, next) {
+    get: function(req, res) {
       res.render('index', {
         title: 'Alpha'
       });

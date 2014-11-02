@@ -39,7 +39,7 @@ if (app.get('env') === 'development') {
   // Don't minify html
   app.locals.pretty = true;
 
-  app.use(function(err, req, res, next) {
+  app.use(function(err, req, res) {
     res.status(err.status || 500);
     res.render('error', {
       title: 'Page not found',
@@ -51,7 +51,7 @@ if (app.get('env') === 'development') {
 
 // production error handler
 // no stacktraces leaked to user
-app.use(function(err, req, res, next) {
+app.use(function(err, req, res) {
   res.status(err.status || 500);
   res.render('error', {
     title: 'Page not found',
