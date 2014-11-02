@@ -1,10 +1,11 @@
 # alpha 
 [![Dependency Status](https://david-dm.org/creaturephil/alpha.svg?style=flat)](https://david-dm.org/creaturephil/alpha)
 [![devDependency Status](https://david-dm.org/creaturephil/alpha/dev-status.svg?style=flat)](https://david-dm.org/creaturephil/alpha#info=devDependencies)
+[![Build Status](https://travis-ci.org/CreaturePhil/alpha.svg?style=flat)](https://travis-ci.org/CreaturePhil/alpha)
 
 Simple Express' opinionated boilerplate for Node.js web applications.
 
-### Getting Started
+## Getting Started
 
 ```bash
 $ git clone https://github.com/CreaturePhil/alpha.git myproject
@@ -13,7 +14,7 @@ $ npm install
 $ npm start
 ```
 
-### License
+## License
 
 Copyright (c) 2014 Philip La
 
