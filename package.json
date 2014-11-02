@@ -4,6 +4,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "test": "mocha --reporter=spec --timeout=10000",
+    "istanbul": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --timeout=10000",
     "codeclimate": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | codeclimate && rm -rf ./coverage"
   },
   "repository": {
