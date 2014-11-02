@@ -4,7 +4,6 @@
 [![Dependency Status](https://david-dm.org/creaturephil/alpha.svg)](https://david-dm.org/creaturephil/alpha)
 [![devDependency Status](https://david-dm.org/creaturephil/alpha/dev-status.svg)](https://david-dm.org/creaturephil/alpha#info=devDependencies)
 [![Code Climate](https://codeclimate.com/github/CreaturePhil/alpha/badges/gpa.svg)](https://codeclimate.com/github/CreaturePhil/alpha)
-[![Test Coverage](https://codeclimate.com/github/CreaturePhil/alpha/badges/coverage.svg)](https://codeclimate.com/github/CreaturePhil/alpha)
 
 Simple Express' opinionated boilerplate for Node.js web applications.
 
