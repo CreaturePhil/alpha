@@ -9,10 +9,10 @@ describe('GET /', function() {
   });
 });
 
-describe('GET /about', function() {
-  it('should return 404 Page Not Found', function(done) {
+describe('GET /404', function() {
+  it('should return 404 Not Found', function(done) {
     request(app)
-      .get('/about')
+      .get('/404')
       .expect(404, done);
   });
 });
