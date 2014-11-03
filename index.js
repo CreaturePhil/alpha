@@ -9,7 +9,7 @@ var routes = require('./config/routes');
 var app = express();
 
 /**
- * App configuration.
+ * App configuration
  */
 
 // view engine setup
@@ -20,7 +20,7 @@ if (app.get('env') === 'development') {
   // don't minify html
   app.locals.pretty = true;
 
-  // turn on console logging in development
+  // turn on console logging
   app.use(morgan('dev'));
 }
 
