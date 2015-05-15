@@ -1,15 +1,20 @@
 {
   "name": "alpha",
   "version": "0.0.0",
+  "description": "Simple Express' opinionated boilerplate for Node.js web applications.",
+  "author": "Philip La <birkal@outlook.com>",
   "scripts": {
     "start": "node ./bin/www",
     "test": "mocha --reporter=spec --timeout=10000",
-    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --timeout=10000",
-    "codeclimate": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | codeclimate && rm -rf ./coverage"
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --timeout=10000"
   },
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/creaturephil/alpha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/creaturephil/alpha/issues"
   },
   "dependencies": {
     "errorhandler": "^1.2.2",
@@ -18,7 +23,6 @@
     "morgan": "^1.4.1"
   },
   "devDependencies": {
-    "codeclimate-test-reporter": "0.0.4",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.10.0",
@@ -26,8 +30,9 @@
     "mocha": "^2.0.1",
     "supertest": "^0.15.0"
   },
+  "private": true,
   "engines": {
-    "node": "0.10.x"
+    "node": "0.12.x"
   },
   "license": "MIT"
 }
