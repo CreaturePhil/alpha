@@ -10,10 +10,9 @@ Simple Express' opinionated boilerplate for Node.js web applications.
 ## Getting Started
 
 ```bash
-$ git clone https://github.com/CreaturePhil/alpha.git myproject
-$ cd myproject
+$ git clone https://github.com/CreaturePhil/alpha.git && cd alpha
 $ npm install
-$ npm start
+$ node server.js
 ```
 
 ## License
