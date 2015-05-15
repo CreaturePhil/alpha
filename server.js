@@ -7,6 +7,7 @@ var express = require('express');
 var logger = require('morgan');
 var path = require('path');
 
+var config = require('./config');
 var routes = require('./config/routes');
 
 /**
@@ -79,9 +80,9 @@ if (app.get('env') === 'production') {
  * Start Express server.
  */
 
-app.listen(3000, function() {
+app.listen(config.port, function() {
   var env = '\n[' + chalk.green(app.get('env')) + ']';
-  var port = chalk.magenta(3000);
+  var port = chalk.magenta(config.port);
   console.log(env + ' Listening on port ' + port + '...\n');
 });
 
