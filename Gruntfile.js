@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   require('load-grunt-tasks')(grunt);
 
-  var files = ['*.js', 'app/**/*.js', 'config/*.js', 'test/*.js'];
+  var files = ['*.js', 'app/**/*.js', 'config/*.js', 'test/**/*.js'];
 
   grunt.initConfig({
 

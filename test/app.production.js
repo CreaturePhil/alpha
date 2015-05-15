@@ -1,7 +1,10 @@
-var request = require('supertest');
-var app = require('../server.js');
+process.env.NODE_ENV = 'production';
+delete require.cache[require.resolve('../server')];
 
-describe('GET /', function() {
+var request = require('supertest');
+var app = require('../server');
+
+describe('GET / in production', function() {
   it('should return 200 OK', function(done) {
     request(app)
       .get('/')
@@ -9,7 +12,7 @@ describe('GET /', function() {
   });
 });
 
-describe('GET /404', function() {
+describe('GET /404 in production', function() {
   it('should return 404 Page Not Found', function(done) {
     request(app)
       .get('/404')

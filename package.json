@@ -5,7 +5,7 @@
   "author": "Philip La <birkal@outlook.com>",
   "scripts": {
     "start": "node server.js",
-    "test": "mocha --reporter=spec --timeout=10000",
+    "test": "grunt && mocha --reporter=spec --timeout=10000",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --timeout=10000"
   },
   "main": "server.js",
